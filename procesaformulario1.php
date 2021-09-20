@@ -77,21 +77,45 @@
 if (isset($_POST['nombre'])) {
     echo "Esta variable está definida, así que se imprimirá";
 }
-else if(isset ($_POST['contrasenia'])){
+else
+		{
+		echo "Variables NO definidas!!!";
+		}
+ if(isset ($_POST['contrasenia'])){
     
 }
-else if(isset ($_POST['email'])){
+else
+		{
+		echo "Variables NO definidas!!!";
+		}
+ if(isset ($_POST['email'])){
     
 }
-else if(isset ($_POST['fecha'])){
+else
+		{
+		echo "Variables NO definidas!!!";
+		}
+ if(isset ($_POST['fecha'])){
     
 }
-else if(isset ($_POST['tel'])){
+else
+		{
+		echo "Variables NO definidas!!!";
+		}
+ if(isset ($_POST['tel'])){
     
 }
-else if(isset ($_POST['poblacion'])){
+else
+		{
+		echo "Variables NO definidas!!!";
+		}
+ if(isset ($_POST['poblacion'])){
     
 }
+else
+		{
+		echo "Variables NO definidas!!!";
+		}
 
 
 ?>
