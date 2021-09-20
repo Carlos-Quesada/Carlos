@@ -117,7 +117,17 @@ else
 		echo "Variables NO definidas!!!";
 		}
 
-
+$edad;
+if ($edad<25){
+    echo 'menor que 25';
+}
+else if ($edad>25 && $edad<50){
+    echo 'entre 25 y 50';
+    
+}
+ else {
+    echo 'mayor que 50';    
+}
 ?>
 
 
